@@ -87,3 +87,107 @@ body {
   color: white;
   border-image: linear-gradient(white, white) 1;
 }
+
+/*Main*/
+
+#course-content {
+  margin: 118px auto 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  width: 792px;
+}
+
+#course-content h2 {
+  font-size: 32px;
+  line-height: 37.57px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  background: linear-gradient(#33a8d8, #1472b7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#course-content p {
+  font-size: 16px;
+  line-height: 18.78px;
+}
+
+.modules-list .module {
+  width: 535px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 57px;
+  border: 1px solid #33a8db;
+  box-shadow: inset -5px 6px 8px rgba(0, 0, 0, 0.7);
+  background-color: #252525;
+  margin-bottom: 24px;
+}
+
+.module span {
+  color: #33a8db;
+}
+
+#transform-world {
+  background-image: url(./assets/images/woman-code.png);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 363px;
+  top: -250px;
+  border-top: 1px solid #33a8db80;
+  border-bottom: 1px solid #33a8db80;
+}
+
+#transform-world p {
+  width: 244px;
+  height: 141px;
+  font-size: 40px;
+  line-height: 46.96px;
+  font-weight: 900;
+  text-shadow: 3px 2px 0 #33a8db;
+  text-transform: lowercase;
+  margin: 111px 198px;
+}
+
+#professional-challenges {
+  width: 792px;
+  margin: 76px auto 91px auto;
+}
+
+#professional-challenges h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37.57px;
+  letter-spacing: 0.19em;
+  text-transform: uppercase;
+  color: #33a8db;
+  margin-bottom: 32px;
+}
+
+#professional-challenges img {
+  margin-bottom: 40px;
+}
+
+#professional-challenges p {
+  font-size: 16px;
+  line-height: 18.78px;
+}
+
+footer {
+  background: linear-gradient(
+    180deg,
+    rgba(51, 168, 219, 0) 0%,
+    rgba(51, 168, 219, 0.2) 99.99%,
+    rgba(51, 168, 219, 0.2) 100%
+  );
+
+  padding-top: 59px;
+  padding-bottom: 38px;
+
+  border-top: 1px solid #33a8db80;
+}
